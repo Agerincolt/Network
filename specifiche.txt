@@ -1,0 +1,44 @@
+Casi d’uso per Network (Scenario principale di Successo per tutti i casi d’Uso)
+UC:
+1.	Registrazione - Attore primario: un Utente:
+L’ Utente usa il Sistema per registrarsi a Network
+a.	Come Enterprise inserendo i dati relativi alla propria azienda;
+b.	Come Customer inserendo i dati relativi alla propria persona;
+
+2.	Login – Attore primario: Utente:
+L’ Utente usa il Sistema autenticarsi in Network inserendo le sue Credentials (Username, Password)
+
+3.	Creazione di una Richiesta - Attore primario: un Customer:
+Il Customer compila i dati necessari e crea un Richiesta:
+a.	Pubblica confermando l’inserimento;
+b.	Privata selezionando una Enterprise dalla Lista e confermando l’inserimento;
+
+4.	Visualizzazione delle proprie Richieste Pubbliche - Attore primario: Il Sistema:
+Il Sistema restituisce una lista contenente tutte le Richieste pubbliche inserite dal Customer autenticato;
+
+5.	Visualizzazione delle proprie Richieste Private - Attore primario: il Sistema:
+Il Sistema restituisce una lista contenente tutte le Richieste private inserite dal Customer autenticato;
+
+6.	Eliminazione di una Richiesta - Attore primario: un Customer:
+Il Customer elimina una richiesta dal Sistema;
+
+7.	Visualizzazione dettagli di una Richiesta - Attore primario: il Sistema:
+Il Sistema restituisce al Customer autenticato l’elenco dei preventivi provveduti dalle Enterprises registrate alla sua Richiesta;
+
+8.	Visualizzazione delle Enterprise – Attore primario: il Sistema:
+Il Sistema restituisce al Customer autenticato l’elenco delle Enterprise registrate nel sistema;
+
+9.	Creazione di un Preventivo - Attore primario: una Enterprise:
+L’ Enterprise compila i dati necessari e crea un Preventivo associandolo ad una Richiesta presente nel Sistema;
+
+10.	Visualizzazione dei propri Preventivi - Attore primario: il Sistema:
+Il Sistema restituisce una lista contenente tutte i Preventivi stilati dall’Enterprise autenticata;
+
+11.	Modificare un Preventivo - Attore primario: una Enterprise:
+L’ Enterprise modifica un Preventivo inserito nel Sistema modificandone la descrizione e/o il prezzo. Il Sistema aggiorna il Preventivo;
+
+12.	Eliminazione di un Preventivo - Attore primario: una Enterprise:
+L’Enterprise elimina una richiesta dal Sistema;
+
+13.	Rifiutare una Richiesta Privata – Attore primario: una Enterprise:
+L’Enterprise rifiuta una Richiesta Privata impostando il suo stato a CLOSED;
